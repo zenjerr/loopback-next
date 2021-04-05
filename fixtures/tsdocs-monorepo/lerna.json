@@ -1,9 +1,4 @@
 {
-  "packages": [
-    "packages/*",
-    "docs"
-  ],
-  "version": "independent",
   "command": {
     "run": {
       "prefix": false,
@@ -12,5 +7,10 @@
       "concurrency": 8,
       "sort": true
     }
-  }
+  },
+  "packages": [
+    "packages/*",
+    "docs"
+  ],
+  "version": "independent"
 }
